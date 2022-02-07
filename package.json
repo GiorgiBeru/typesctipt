@@ -1,0 +1,19 @@
+{
+  "name": "typesandnarrowingassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typescript": "npx tsc --project tsconfig.json",
+    "node": "node src/index.js",
+    "start": "npm-run-all typescript node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.5.5"
+  }
+}
